@@ -1,0 +1,25 @@
+.list-bo {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.num {
+  margin-left: auto;
+}
+.arrow {
+  font-size: 10px;
+  margin-right: 15px;
+}
+.sub-tarifas {
+  padding: 5px 0 5px 50px;
+}
+.sub-tarifas p {
+  margin-bottom: 10px;
+}
+.sub-tarifas-hide {
+  display: none;
+  padding: 0;
+  margin: 0;
+}

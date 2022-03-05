@@ -1,0 +1,115 @@
+.message-container {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  padding: 5px 20px;
+  width: 100%;
+  border-bottom: 1px solid rgb(175, 174, 174);
+}
+.darkmode {
+  background-color: rgb(20, 20, 20);
+  display: flex;
+  align-items: center;
+  padding: 5px 20px;
+  width: 100%;
+  border-bottom: 1px solid rgb(175, 174, 174);
+}
+.message-subcontainer {
+  width: 100%;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.user {
+  display: grid;
+
+  background: rgb(9, 150, 206);
+  width: 35px;
+  height: 35px;
+  place-items: center;
+  border-radius: 50px;
+  margin-right: 15px;
+}
+.message-body {
+  display: flex;
+  align-items: center;
+}
+.message-foot {
+  display: flex;
+  align-items: center;
+}
+.foot-list {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: auto;
+  position: relative;
+}
+.foot-list .user-list:nth-child(1) {
+  display: grid;
+  background: blue;
+  width: 35px;
+  height: 35px;
+  place-items: center;
+  border-radius: 50px;
+
+  z-index: 10;
+}
+.foot-list .user-list:nth-child(2) {
+  display: grid;
+  background: red;
+  width: 35px;
+  height: 35px;
+  place-items: center;
+  border-radius: 50px;
+  z-index: 3;
+}
+.foot-list .user-list:nth-child(3) {
+  display: grid;
+  background: orange;
+  width: 35px;
+  height: 35px;
+  place-items: center;
+  border-radius: 50px;
+}
+.foot-list .user-list:last-child {
+  display: grid;
+  background: rgb(187, 255, 0);
+  width: 35px;
+  height: 35px;
+  place-items: center;
+  border-radius: 50px;
+}
+
+/* .foot-list :nth-child(2) {
+  display: grid;
+  position: relative;
+  background: rgb(212, 76, 42);
+  width: 35px;
+  height: 35px;
+  place-items: center;
+  border-radius: 50px;
+  border: 1px solid white;
+  z-index: 2;
+  left: 20px;
+}
+.foot-list :nth-child(3) {
+  display: grid;
+
+  background: rgb(9, 150, 206);
+  width: 35px;
+  height: 35px;
+  place-items: center;
+  border-radius: 50px;
+  z-index: 1;
+  border: 1px solid white;
+  left: 20px;
+} */
+.logo-message {
+  margin-right: 10px;
+}
+
+.checkbox {
+  margin-right: 10px;
+}

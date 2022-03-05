@@ -1,0 +1,7 @@
+.list-bord {
+  display: flex;
+  padding: 10px;
+}
+.number {
+  margin-left: auto;
+}
